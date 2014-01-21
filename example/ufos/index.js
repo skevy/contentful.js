@@ -2,7 +2,6 @@
 
 /* global L, $ */
 
-
 if (typeof require !== 'undefined') {
   var contentful = require('../../index');
 }
@@ -40,7 +39,7 @@ function UfoController($scope, $timeout, enQ) {
   $scope.update = update;
   function update() {
     var q = {
-      'sys.contentType.sys.id': '7ocuA1dfoccWqWwWUY4UY',
+      content_type: '7ocuA1dfoccWqWwWUY4UY',
       limit: 1000,
       include: 1
     };
