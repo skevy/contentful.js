@@ -8,7 +8,7 @@
   "author": "Stephan Seidt <stephan@contentful.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.5.2",
+    "axios": "skevy/axios#optional-xsrf",
     "contentful-resolve-response": "~0.1.0",
     "lodash": "~2.4.1",
     "redefine": "~0.2.0"
