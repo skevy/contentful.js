@@ -24,6 +24,7 @@ var Client = redefine.Class({
     var params = {
       headers: {},
       method: 'get',
+      xsrfEnabled: false,
       url: [
         this.options.secure ? 'https' : 'http',
         '://',
